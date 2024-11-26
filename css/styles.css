@@ -426,6 +426,14 @@ section {
     color: #f4f4fd;
     padding: 100px 0;
 }
+.container-div {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-container {
+    margin-right: 120px;
+}
 
 .footer-downa {
     font-family: "Raleway", sans-serif;
