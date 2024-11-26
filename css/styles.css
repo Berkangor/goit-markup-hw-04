@@ -1,0 +1,376 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-one {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-one .container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-one {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #434455;
+    font-style: normal;
+}
+
+.studio-s {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: block;
+    color: #4d5ae5;
+    margin-right: 76px
+}
+
+.accent {
+    color: #2e2f42;
+}
+
+.studio-a {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0 24px;
+    display: block;
+}
+
+.studio-a:hover,
+.studio-a:focus {
+    color: #404bbf;
+}
+
+.adress-list {
+    display: flex;
+    gap: 40px;
+}
+
+.adress {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.adress .studio-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px;
+    display: block;
+    transition-duration: 500ms;
+}
+.link-adress {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.adress .studio-link:hover,
+.adress .studio-link:focus {
+    color: #404bbf;
+    font-size: 15px;
+}
+
+.effective-solution {
+    color: #ffffff;
+    background-color: #2E2F42;
+    text-align: center;
+    padding: 188px 0;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.efective-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+.effective-solution .efective-button {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+}
+
+.effective-solution .efective-button:hover,
+.effective-solution .efective-button:focus {
+    background-color: #404BBF;
+}
+
+.purpose-tit {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+}
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-li-one {
+    width: calc((100% - 72px) / 4);
+}
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    width: 264px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
+.purpose-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.purpose-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.about-us {
+    background-color: #f4f4fd;
+}
+
+.about-usc {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.about-li {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.about-li .mark {
+    padding: 32px 0;
+}
+
+.about-ush {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.about-usp {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.portfolio-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding: 0;
+}
+
+.portfolio-li-one {
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-apps {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    border: auto;
+    margin-bottom: 72px;
+}
+
+.portfolio-titleh {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.portfolio-titlep {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer-down {
+    background-color: #2E2F42;
+    color: #f4f4fd;
+    padding: 100px 0;
+}
+
+.footer-downa {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.accent-footer {
+    color: #f4f4fd;
+}
+
+.footer-downp {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px;
+}
+.footer-icons-p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-ul {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-li {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    background-color: #31d0aa;
+}
+
+.svg-footer {
+    fill: #f4f4fd;
+}
