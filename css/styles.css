@@ -66,33 +66,11 @@ a {
     text-decoration: none;
     color: #434455;
 }
-.logo-nav {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    margin-right: 76px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .logo-nav:hover {
     color: #2e2f42;
 }
-.studio-s {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: block;
-    color: #4d5ae5;
-    margin-right: 76px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .studio-s:hover {
 color: #2e2f42;
 }
@@ -103,18 +81,18 @@ color: #2e2f42;
 .accent:hover {
     color: #404bbf;
 }
-
 .studio-s {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding: 24px 0 24px;
-    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 500ms;
 }
-.studio-a {
+.studio-it{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -124,8 +102,9 @@ color: #2e2f42;
     transition-property: font-size;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
+
 }
-.studio-a::after {
+.studio-it::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -135,9 +114,19 @@ color: #2e2f42;
     background-color: #404bbf;
     border-radius: 2px;
 }
+.studio-a {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0 24px;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 500ms;
+}
 
-.studio-a:hover,
-.studio-a:focus {
+.studio-it:hover,
+.studio-it:focus {
     color: #404bbf;
     font-size: 15px;
 }
