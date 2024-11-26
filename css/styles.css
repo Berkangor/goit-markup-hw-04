@@ -430,6 +430,7 @@ section {
     color: #f4f4fd;
     padding: 100px 0;
 }
+
 .container-div {
     display: flex;
     align-items: baseline;
@@ -439,7 +440,7 @@ section {
     margin-right: 120px;
 }
 
-.footer-downa {
+.logo-nav-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -455,12 +456,13 @@ section {
     color: #f4f4fd;
 }
 
-.footer-downp {
+.footer-p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
 }
+
 .footer-icons-p {
     font-weight: 500;
     font-size: 16px;
