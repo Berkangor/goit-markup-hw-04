@@ -368,6 +368,10 @@ section {
 .portfolio-li-one:hover .portfolio-img-p {
     transform: translateY(0%);
 }
+.portfolio-img {
+    position: relative;
+    overflow: hidden;
+}
 
 .portfolio-img-p {
     position: absolute;
